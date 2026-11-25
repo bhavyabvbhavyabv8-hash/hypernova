@@ -38,7 +38,7 @@ test('GET /api/health reports that the backend is running', async () => {
   assert.equal(response.status, 200)
   assert.deepEqual(await response.json(), {
     status: 'ok',
-    message: 'Hyper Nova backend is running',
+    message: 'FLOCCI FIT backend is running',
   })
 })
 

@@ -1,6 +1,6 @@
 import app from './config/app.js'
-import { port } from './config/env.js'
+import { config } from './config/env.js'
 
-app.listen(port, () => {
-  console.log(`Hyper Nova API listening on port ${port}`)
+app.listen(config.port, () => {
+  console.log(`FLOCCI FIT API listening on port ${config.port}`)
 })
