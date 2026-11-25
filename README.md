@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Fitness Builder
 
 Fitness Builder is a workout builder and progressive overload logger project. Phase 1 set up the frontend/backend foundation, and Phase 2 adds PostgreSQL database connectivity and the initial database schema.
@@ -261,3 +262,6 @@ If the database is unavailable, the endpoint returns HTTP `503` with an error me
 - PostgreSQL credentials are read from environment variables; do not hardcode real secrets.
 - Database queries use parameterized `pg` queries where user/input values are involved.
 - Do not commit or push automatically unless explicitly requested.
+=======
+# hypernova
+>>>>>>> origin/main
