@@ -77,3 +77,5 @@ npm run dev
 The Vite app is available at [http://localhost:5173](http://localhost:5173). The API listens on port `5000` by default; its health check is [http://localhost:5000/api/health](http://localhost:5000/api/health).
 
 For a production frontend build, run `npm run build` from `frontend/`. To start the API without nodemon, run `npm start` from `backend/`.
+
+Run the backend API tests with `npm test` from `backend/`.

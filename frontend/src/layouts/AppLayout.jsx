@@ -43,7 +43,7 @@ function AppLayout() {
         <span>HYPER NOVA · Built for consistent progress</span>
         <a
           className="inline-flex items-center gap-1 hover:text-zinc-300"
-          href="http://localhost:5000/api/health"
+          href="/api/health"
           target="_blank"
           rel="noreferrer"
         >
